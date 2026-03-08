@@ -10,7 +10,7 @@ If you pick a door with a goat behind it, you lose.
 
 But right after picking a door, Monty Hall opens one of the other two doors, revealing a goat behind it.
 
-You then have a choice, stick to your door or pick the other one.
+You then have a choice, stick to your choice or pick the other door.
 
 The probability says that switching door would be a better choice, but is it really true ?
 
@@ -18,7 +18,7 @@ The probability says that switching door would be a better choice, but is it rea
 
 ![alt text](results.png)
 
-The more games you simulate, the more you get to a perfect 33.33% of wins withoug switching door, and 66.66% wins when switching door.
+The more games you simulate, the more you get to a perfect 33.33% of wins without switching door, and 66.66% wins when switching door.
 
 # Executing the script
 
@@ -28,4 +28,4 @@ You need NodeJS >=v14. No library needed.
 node index.mjs
 ```
 
-You can change the number of execution by updating the NUMBER_EXECUTIONS variable at the top of the index.mjs file.
+You can change the number of executions by updating the NUMBER_EXECUTIONS variable at the top of the index.mjs file.
